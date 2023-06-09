@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMIDELE JOSHUA OLAYINKA 220154.</title>
+</head>
+<body>
+    <!-- QUESTIONS -->
+            <!-- SECTION A -->
+    <!-- 2. Explain what arrays are, List and explain 5 arrays methods. -->
+
+            <!-- SECTION B -->
+    <!-- 1. PDC NID. Write an algorithm that display from a range of number from 1-100
+    Case 1: if a number hppens to be divisible by 3 without a remainder, let it display "PDC",
+    
+    Case 2: if the number is divisible by 5 without a remainder, the display becomes "NID" from that number.
+        
+    Case 3: if the number is divisible by both 3 and 5 without a remainder, the display becomes "PCD NID"-->
+
+    <!--
+    Case 4: if the number does not fall within any of the first three cases, let it display "neither PDC nor NID"
+
+
+    6 Write an algorithm that evaluates grades based on the score entered.
+    
+    7. Given an array of numbers, write an algorithm that evaluates which number is minimum, average, maximum and sum of all the numbers.
+-->
+<a href="/Section A.html">
+    <button>LINK TO SECTION A</button>
+</a>
+
+    <!-- SECTION B 1 -->
+<!-- <script>
+    for (let i = 1; i <= 100; i++) {
+      if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i + " PDC NID");
+      } else if (i % 3 === 0) {
+        console.log(i + " PDC");
+      } else if (i % 5 === 0) {
+        console.log(i + " NID");
+      } else {
+        console.log(i + " neither PDC nor NID");
+      }
+    }
+</script> -->
+
+<!-- SECTION B 6 -->
+<!-- <Script>
+    let grades = 100
+    if(grades > 100){
+        console.log("The number is not included in the grades");
+    }
+    else if(grades >= 97 && grades <= 100){
+        console.log("A+");
+    }
+    else if(grades >= 93 && grades <= 96){
+        console.log("A");
+    }
+    else if(grades >= 90 && grades <= 92){
+        console.log("A-");
+    }
+    else if(grades >= 87 && grades <= 89){
+        console.log("B+");
+    }
+    else if(grades >= 83 && grades <= 86){
+        console.log("B");
+    }
+    else if(grades >= 80 && grades <= 82){
+        console.log("B-");
+    }
+    else if(grades >= 77 && grades <= 79){
+        console.log("C+");
+    }
+    else if(grades >= 73 && grades <= 76){
+        console.log("C");
+    }
+    else if(grades >= 70 && grades <= 72){
+        console.log("C-");
+    }
+    else if(grades >= 67 && grades <= 69){
+        console.log("D+");
+    }
+    else if(grades >= 63 && grades <= 66){
+        console.log("D");
+    }
+    else if(grades >= 60 && grades <= 62){
+        console.log("D-");
+    }
+    else if(grades >= 0 && grades <= 59){
+        console.log("F");
+    }
+    else{
+        console.log("Something is wrong");
+    }
+</Script> -->
+
+<!-- SECTION B 7 -->
+<!-- <script>
+    // let givenNumber = 9;
+    // for(i = 1; i <= givenNumber; i++){
+    //     let getSum = console.log(i);
+        
+    // }
+
+    function evaluateNumbers(numbers) {
+  let minimum = Infinity;
+  let maximum = -Infinity;
+  let total = 0;
+  const length = numbers.length;
+
+  for (let i = 0; i < length; i++) {
+    const num = numbers[i];
+
+    if (num < minimum) {
+      minimum = num;
+    }
+
+    if (num > maximum) {
+      maximum = num;
+    }
+
+    total += num;
+  }
+
+  const average = total / length;
+
+  return {
+    minimum: minimum,
+    maximum: maximum,
+    average: average.toFixed(3),
+    sum: total
+  };
+}
+
+const givenNumbers = [2, 1, 7, 3, 2, 9, 5];
+const result = evaluateNumbers(givenNumbers);
+
+console.log("Minimum:", result.minimum);
+console.log("Maximum:", result.maximum);
+console.log("Average:", result.average);
+console.log("Sum:", result.sum);
+
+</script> -->
+</body>
+</html>

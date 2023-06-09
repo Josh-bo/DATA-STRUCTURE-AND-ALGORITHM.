@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMIDELE JOSHUA OLAYINKA.</title>
+</head>
+<body>
+    SECTION B (QUES 7) <br>
+    Check the console. <br><br><br><br><br><br><br><br><br><br><br>
+
+
+    That's all Sir, <br> 
+    Thanks <br><br>
+
+
+    <a href="/Section B(6).html">
+        <button>PREV</button>
+    </a> 
+    <script>    
+        function evaluateNumbers(numbers) {
+      let minimum = Infinity;
+      let maximum = -Infinity;
+      let total = 0;
+      const length = numbers.length;
+    
+      for (let i = 0; i < length; i++) {
+        const num = numbers[i];
+    
+        if (num < minimum) {
+          minimum = num;
+        }
+    
+        if (num > maximum) {
+          maximum = num;
+        }
+    
+        total += num;
+      }
+    
+      const average = total / length;
+    
+      return {
+        minimum: minimum,
+        maximum: maximum,
+        average: average.toFixed(3),
+        sum: total
+      };
+    }
+    
+    const givenNumbers = [2, 1, 7, 3, 2, 9, 5];
+    const result = evaluateNumbers(givenNumbers);
+    
+    console.log("Minimum:", result.minimum);
+    console.log("Maximum:", result.maximum);
+    console.log("Average:", result.average);
+    console.log("Sum:", result.sum);
+    
+    </script>
+</body>
+</html>
